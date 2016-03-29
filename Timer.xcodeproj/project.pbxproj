@@ -12,6 +12,7 @@
 		452379F51CAA10EB00C636A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452379F31CAA10EB00C636A6 /* Main.storyboard */; };
 		452379F71CAA10EB00C636A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 452379F61CAA10EB00C636A6 /* Assets.xcassets */; };
 		452379FA1CAA10EB00C636A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452379F81CAA10EB00C636A6 /* LaunchScreen.storyboard */; };
+		45237A031CAA329100C636A6 /* NSTimer+Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45237A021CAA329100C636A6 /* NSTimer+Closure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		452379F61CAA10EB00C636A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		452379F91CAA10EB00C636A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		452379FB1CAA10EB00C636A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45237A021CAA329100C636A6 /* NSTimer+Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTimer+Closure.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +59,20 @@
 				452379EF1CAA10EB00C636A6 /* AppDelegate.swift */,
 				452379F11CAA10EB00C636A6 /* ViewController.swift */,
 				452379F31CAA10EB00C636A6 /* Main.storyboard */,
+				45237A021CAA329100C636A6 /* NSTimer+Closure.swift */,
+				45237A011CAA10FC00C636A6 /* Supporting Files */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		45237A011CAA10FC00C636A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				452379F61CAA10EB00C636A6 /* Assets.xcassets */,
 				452379F81CAA10EB00C636A6 /* LaunchScreen.storyboard */,
 				452379FB1CAA10EB00C636A6 /* Info.plist */,
 			);
-			path = Timer;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45237A031CAA329100C636A6 /* NSTimer+Closure.swift in Sources */,
 				452379F21CAA10EB00C636A6 /* ViewController.swift in Sources */,
 				452379F01CAA10EB00C636A6 /* AppDelegate.swift in Sources */,
 			);
