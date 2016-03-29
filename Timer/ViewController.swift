@@ -26,7 +26,7 @@ import UIKit
 //    
 //    func timeAction() {
 //        duration -= 1
-//        print("Reamin: \(duration)")
+//        print("Remain: \(duration)")
 //        if duration <= 0 {
 //            timer.invalidate()
 //            print("didFinish")
@@ -41,11 +41,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         NSTimer.scheduledTimer(
             timeInterval: 1,
             duration: 10,
-            repeatClosure: { reamin in print("Reamin: \(reamin)") },
+            repeatClosure: { remain in print("Remain: \(remain)") },
             didFinish: { print("didFinish") }
         )
     }
