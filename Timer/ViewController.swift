@@ -41,7 +41,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        NSTimer.scheduledTimer(
+//        NSTimer.scheduledTimer(
+//            timeInterval: 1,
+//            duration: 10,
+//            repeatClosure: { remain in print("Remain: \(remain)") },
+//            didFinish: { print("didFinish") }
+//        )
+        
+        BNQueue.scheduledTimer(
             timeInterval: 1,
             duration: 10,
             repeatClosure: { remain in print("Remain: \(remain)") },
